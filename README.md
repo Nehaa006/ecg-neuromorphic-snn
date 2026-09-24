@@ -89,7 +89,7 @@ The model was evaluated using a 6-bit post-training quantized version on $21,894
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ecg-neuromorphic-snn.git
+git clone https://github.com/Nehaa006/ecg-neuromorphic-snn.git
 cd ecg-neuromorphic-snn
 python -m venv .venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
