@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.kilo/
+
+# Python metadata
+*.egg-info/
+.eggs/
+
+# Datasets (ignore heavy PyTorch tensors)
+data/raw/*
+data/processed/*.pt
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Checkpoints & Notebooks
+.ipynb_checkpoints/
+
+# System / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
